@@ -21,7 +21,7 @@ The default instructions I followed to set up [git-lfs](git-lfs.md) set up some 
 Windows Git Bash also added some configs.
 
 On Windows Git Bash, I use `~/.gitconfig` for GitHub, and `.git/config` for my Obsidian notes which talks to Gitea.
-By doing this, I can have a different `user.signingKey`, `user.name`, `user.email` to [sign commits](Sign%20git%20commits%20with%20GPG%20or%20SSH.md) for each platform.
+By doing this, I can have a different `user.signingKey`, `user.name`, `user.email` to [sign commits](sign-git-commits-with-gpg-or-ssh.md) for each platform.
 
 
 [^1]: https://stackoverflow.com/a/26824247

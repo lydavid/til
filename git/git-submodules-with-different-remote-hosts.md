@@ -19,9 +19,21 @@ remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 branch.obsidian.remote=origin
 ```
 
-One of the issues I encountered while setting this up was I had `commit.gpgsign` set up globally, which prevented me from committing to this repository. So I had to disable it.
+One of the issues I encountered while setting this up was I had `commit.gpgsign` set up [globally](git-config-scope.md), which prevented me from committing to this repository. So I had to disable it.
 ```
 git config --global --unset commit.gpgsign
 ```
 
-Then set it up locally for the root git repository. I did not set it up for this repository yet because it uses a different email.
+Then I set it up locally for the root git repository. I did not set it up for this repository yet because it uses a different email.
+
+## Pulling changes after creating a submodule
+First time.
+```
+git submodule init
+git submodule update
+```
+
+There afterwards.
+```
+git pull --recurse
+```
