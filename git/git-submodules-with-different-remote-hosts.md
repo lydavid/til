@@ -27,13 +27,20 @@ git config --global --unset commit.gpgsign
 Then I set it up locally for the root git repository. I did not set it up for this repository yet because it uses a different email.
 
 ## Pulling changes after creating a submodule
-First time.
+
+### One-time
 ```
 git submodule init
 git submodule update
 ```
 
-There afterwards.
+If I want to be able be able to push changes from my phone, then I need to set up [SSH](ssh-for-github-and-gitea.md).
+
+### Each time
 ```
 git pull --recurse
 ```
+
+## Where is the local git config?
+
+It's under `./git/modules/til/config` from the root repository.
