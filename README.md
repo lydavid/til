@@ -42,7 +42,7 @@ _20 TILs and counting..._
 
 ### Markdown
 
-- [Header Links Need to be Lowercase](Markdown/header-links-need-to-be-lowercase.md)
+- [Header Links Need to be Lowercase](Markdown/github-markdown-header-links-need-to-be-lowercase-and-use-dashes-instead-of-spaces.md)
 
 ### VS-Code
 
