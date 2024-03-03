@@ -11,9 +11,12 @@ They all work in Obsidian though.
 This is mostly relevant for [README](../README.md)'s TOC. I should not have to force myself to write headers in this style anywhere else.
 
 ## Test linking to headers within other pages:
-- [Pulling changes after creating a submodule](../git/git-submodules-with-different-remote-hosts.md#Pulling%20changes%20after%20creating%20a%20submodule)
 
-It works fine in Obsidian.
+eg. [Pulling changes after creating a submodule](../git/git-submodules-with-different-remote-hosts.md#Pulling%20changes%20after%20creating%20a%20submodule)
+
+It works fine in Obsidian. But not in GitHub flavored Markdown.
+
+Obsidian's linking turns spaces into `%20`, whereas GitHub expects them to be `-` and lowercase.
 
 ## This does not work
 
