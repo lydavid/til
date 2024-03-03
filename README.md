@@ -7,19 +7,25 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_16 TILs and counting..._
+_18 TILs and counting..._
 
 ---
 
 ### Categories
 
-* [Android-Studio](#Android-Studio)
-* [DNS](#DNS)
-* [Kotlin](#Kotlin)
+* [.obsidian](#.obsidian)
+* [Android-Studio](#android-studio)
+* [DNS](#dns)
+* [Kotlin](#kotlin)
+* [VS-Code](#vs-code)
 * [adb](#adb)
+* [attachments](#attachments)
 * [git](#git)
 
 ---
+
+### .obsidian
+
 
 ### Android-Studio
 
@@ -33,11 +39,19 @@ _16 TILs and counting..._
 
 - [Generic Invariance](Kotlin/generic-invariance.md)
 
+### VS-Code
+
+- [Open with Code](VS-Code/open-with-code.md)
+- [Remote-SSH](VS-Code/remote-ssh.md)
+
 ### adb
 
 - [ADB Set Proxy](adb/adb-set-proxy.md)
 - [Connect ADB Wirelessly on the Same Network](adb/connect-adb-wirelessly.md)
 - [Record Android Screen with ADB](adb/record-android-screen-with-adb.md)
+
+### attachments
+
 
 ### git
 

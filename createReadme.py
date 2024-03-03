@@ -105,7 +105,7 @@ def print_file(category_names, count, categories):
         # print the list of categories with links
         for category in sorted(category_names):
             file_.write('* [{0}](#{1})\n'.format(category,
-                                                 category))
+                                                 category.lower()))
 
         # print the section for each category
         file_.write('''
