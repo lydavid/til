@@ -107,7 +107,7 @@ So, I copied `PreviewScreenSizes`'s implementation, duplicated its previews for 
 actual annotation class DefaultPreviews
 ```
 
-This of course no longer makes sense to apply to every single Composable. The UI for a [Screen](https://slackhq.github.io/circuit/screen/) should use this, while components should use `@PreviewLightDark`.
+It no longer makes sense to apply this every single composable preview. The UI for a [Screen](https://slackhq.github.io/circuit/screen/) should use this, while components should use `@PreviewLightDark`.
 
 ## Multiplatform previews?
 
