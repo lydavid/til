@@ -13,19 +13,19 @@ _16 TILs and counting..._
 
 ### Categories
 
-* [Android-studio](#Android-Studio)
-* [Dns](#DNS)
+* [Android-Studio](#Android-Studio)
+* [DNS](#DNS)
 * [Kotlin](#Kotlin)
-* [Adb](#adb)
-* [Git](#git)
+* [adb](#adb)
+* [git](#git)
 
 ---
 
-### Android-studio
+### Android-Studio
 
 - [Multipreview](Android-Studio/jetpack-compose-multipreview.md)
 
-### Dns
+### DNS
 
 - [Setting up Custom Subdomain for GitHub Pages](DNS/custom-subdomain-for-github-pages.md)
 
@@ -33,13 +33,13 @@ _16 TILs and counting..._
 
 - [Generic Invariance](Kotlin/generic-invariance.md)
 
-### Adb
+### adb
 
 - [ADB Set Proxy](adb/adb-set-proxy.md)
 - [Connect ADB Wirelessly on the Same Network](adb/connect-adb-wirelessly.md)
 - [Record Android Screen with ADB](adb/record-android-screen-with-adb.md)
 
-### Git
+### git
 
 - [Cache GPG key password](git/cache-gpg-key-password.md)
 - [Cache SSH key password](git/cache-ssh-key-password.md)

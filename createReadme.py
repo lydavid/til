@@ -107,7 +107,7 @@ def print_file(category_names, count, categories):
 ''')
         # print the list of categories with links
         for category in sorted(category_names):
-            file_.write('* [{0}](#{1})\n'.format(category.capitalize(),
+            file_.write('* [{0}](#{1})\n'.format(category,
                                                  category))
 
         # print the section for each category
@@ -116,7 +116,7 @@ def print_file(category_names, count, categories):
 
 ''')
         for category in sorted(category_names):
-            file_.write('### {0}\n'.format(category.capitalize()))
+            file_.write('### {0}\n'.format(category))
             file_.write('\n')
             tils = categories[category]
             for (title, filename) in sorted(tils):
