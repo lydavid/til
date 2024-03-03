@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_18 TILs and counting..._
+_20 TILs and counting..._
 
 ---
 
@@ -17,6 +17,7 @@ _18 TILs and counting..._
 * [Android-Studio](#android-studio)
 * [DNS](#dns)
 * [Kotlin](#kotlin)
+* [Markdown](#markdown)
 * [VS-Code](#vs-code)
 * [adb](#adb)
 * [attachments](#attachments)
@@ -39,6 +40,10 @@ _18 TILs and counting..._
 
 - [Generic Invariance](Kotlin/generic-invariance.md)
 
+### Markdown
+
+- [Header Links Need to be Lowercase](Markdown/header-links-need-to-be-lowercase.md)
+
 ### VS-Code
 
 - [Open with Code](VS-Code/open-with-code.md)
@@ -57,6 +62,7 @@ _18 TILs and counting..._
 
 - [Cache GPG key password](git/cache-gpg-key-password.md)
 - [Cache SSH key password](git/cache-ssh-key-password.md)
+- [Changing File and Directory Capitalization](git/changing-file-and-directory-capitalization.md)
 - [GPG for GitHub and Gitea](git/gpg-for-github-and-gitea.md)
 - [Git Large File Storage](git/git-lfs.md)
 - [Git Submodules with Different Remote Hosts](git/git-submodules-with-different-remote-hosts.md)
