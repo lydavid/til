@@ -1,6 +1,6 @@
 # Sign Git Commits with GPG or SSH
 ## With SSH
-Pre: [SSH for GitHub and Gitea](../../til/git/ssh-for-github-and-gitea.md#SSH%20for%20GitHub%20and%20Gitea)
+Pre: [SSH for GitHub and Gitea](ssh-for-github-and-gitea.md#SSH%20for%20GitHub%20and%20Gitea)
 
 https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key#telling-git-about-your-ssh-key
 
@@ -19,7 +19,7 @@ git config commit.gpgsign true
 
 
 ## With GPG
-Pre: [GPG for GitHub and Gitea](../../til/git/gpg-for-github-and-gitea.md#GPG%20for%20GitHub%20and%20Gitea)
+Pre: [GPG for GitHub and Gitea](gpg-for-github-and-gitea.md#GPG%20for%20GitHub%20and%20Gitea)
 
 https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key#telling-git-about-your-gpg-key
 

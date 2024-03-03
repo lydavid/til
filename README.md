@@ -8,7 +8,7 @@ Inspired by [simonw/til](https://github.com/simonw/til).
 - [record-android-screen-with-adb](adb/record-android-screen-with-adb.md)
 
 ## dns
-- [custom-subdomain-for-github-pages](dns/custom-subdomain-for-github-pages.md)
+- [custom-subdomain-for-github-pages](DNS/custom-subdomain-for-github-pages.md)
 
 ## git
 - [cache-gpg-key-password](git/cache-gpg-key-password.md)

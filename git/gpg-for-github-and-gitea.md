@@ -6,7 +6,7 @@ https://docs.github.com/en/authentication/managing-commit-signature-verification
 gpg --full-generate-key
 ```
 - Go through the steps, just pick defaults
-- Enter matching git name and email as the ones found in [gitconfig](../../til/git/git-config-scope.md)
+- Enter matching git name and email as the ones found in [gitconfig](git-config-scope.md)
 
 List all keys
 ```shell
