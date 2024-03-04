@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_20 TILs and counting..._
+_21 TILs and counting..._
 
 ---
 
@@ -21,6 +21,7 @@ _20 TILs and counting..._
 * [VS-Code](#vs-code)
 * [adb](#adb)
 * [attachments](#attachments)
+* [bash](#bash)
 * [git](#git)
 
 ---
@@ -57,6 +58,10 @@ _20 TILs and counting..._
 
 ### attachments
 
+
+### bash
+
+- [Manage dotfiles with stow](bash/manage-dotfiles-with-stow.md)
 
 ### git
 
