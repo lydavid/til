@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_21 TILs and counting..._
+_24 TILs and counting..._
 
 ---
 
@@ -53,8 +53,11 @@ _21 TILs and counting..._
 ### adb
 
 - [ADB Set Proxy](adb/adb-set-proxy.md)
+- [ADB Shell to Execute Commands](adb/adb-shell-to-execute-commands.md)
 - [Connect ADB Wirelessly on the Same Network](adb/connect-adb-wirelessly.md)
+- [Deep Link into Android App](adb/deep-link-into-android-app.md)
 - [Record Android Screen with ADB](adb/record-android-screen-with-adb.md)
+- [Send Notification](adb/send-notification.md)
 
 ### attachments
 
