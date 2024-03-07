@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_24 TILs and counting..._
+_31 TILs and counting..._
 
 ---
 
@@ -15,14 +15,18 @@ _24 TILs and counting..._
 
 * [.obsidian](#.obsidian)
 * [Android-Studio](#android-studio)
+* [Charles](#charles)
 * [DNS](#dns)
 * [Kotlin](#kotlin)
 * [Markdown](#markdown)
+* [Obsidian](#obsidian)
 * [VS-Code](#vs-code)
 * [adb](#adb)
 * [attachments](#attachments)
 * [bash](#bash)
 * [git](#git)
+* [tmux](#tmux)
+* [wsl](#wsl)
 
 ---
 
@@ -32,6 +36,11 @@ _24 TILs and counting..._
 ### Android-Studio
 
 - [Multipreview](Android-Studio/jetpack-compose-multipreview.md)
+
+### Charles
+
+- [Charles Disables Internet on MacBook](Charles/charles-disables-internet.md)
+- [Charles Messes up Gradle Plugin/Dependency Downloads](Charles/charles-messes-up-gradle-downloads.md)
 
 ### DNS
 
@@ -44,6 +53,10 @@ _24 TILs and counting..._
 ### Markdown
 
 - [GitHub Markdown Header Links Need to be Lowercase and Use Dashes Instead of Spaces](Markdown/github-markdown-header-links-need-to-be-lowercase-and-use-dashes-instead-of-spaces.md)
+
+### Obsidian
+
+- [Attachments in a Nested Vault](Obsidian/attachments-in-a-nested-vault.md)
 
 ### VS-Code
 
@@ -79,6 +92,16 @@ _24 TILs and counting..._
 - [gh auth](git/gh-auth.md)
 - [git lfs](git/git-lfs.md)
 - [gitconfig vs git/config](git/git-config-scope.md)
+
+### tmux
+
+- [Customize tmux](tmux/customize-tmux.md)
+- [Nested tmux](tmux/nested-tmux.md)
+
+### wsl
+
+- [How to Setup WSL](wsl/how-to-setup-wsl.md)
+- [How to Shutdown WSL](wsl/how-to-shutdown-wsl.md)
 
 ## Usage
 
