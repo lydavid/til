@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_31 TILs and counting..._
+_32 TILs and counting..._
 
 ---
 
@@ -102,6 +102,7 @@ _31 TILs and counting..._
 
 - [How to Setup WSL](wsl/how-to-setup-wsl.md)
 - [How to Shutdown WSL](wsl/how-to-shutdown-wsl.md)
+- [Speed Up Git in WSL](wsl/speed-up-git-in-wsl.md)
 
 ## Usage
 
