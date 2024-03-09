@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_32 TILs and counting..._
+_34 TILs and counting..._
 
 ---
 
@@ -85,9 +85,11 @@ _32 TILs and counting..._
 - [Cache SSH key password](git/cache-ssh-key-password.md)
 - [Changing File and Directory Capitalization](git/changing-file-and-directory-capitalization.md)
 - [GPG for GitHub and Gitea](git/gpg-for-github-and-gitea.md)
+- [Git Maintenance](git/git-maintenance.md)
 - [Git Submodules with Different Remote Hosts](git/git-submodules-with-different-remote-hosts.md)
 - [Run GitHub Actions from Command Line with gh](git/run-gha-from-cli-with-gh.md)
 - [SSH for GitHub and Gitea](git/ssh-for-github-and-gitea.md)
+- [See Commit Signature](git/see-commit-signature.md)
 - [Sign Git Commits with GPG or SSH](git/sign-git-commits-with-gpg-or-ssh.md)
 - [gh auth](git/gh-auth.md)
 - [git lfs](git/git-lfs.md)
