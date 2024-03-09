@@ -7,13 +7,14 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_34 TILs and counting..._
+_36 TILs and counting..._
 
 ---
 
 ### Categories
 
 * [.obsidian](#.obsidian)
+* [Android](#android)
 * [Android-Studio](#android-studio)
 * [Charles](#charles)
 * [DNS](#dns)
@@ -25,6 +26,7 @@ _34 TILs and counting..._
 * [attachments](#attachments)
 * [bash](#bash)
 * [git](#git)
+* [iOS](#ios)
 * [tmux](#tmux)
 * [wsl](#wsl)
 
@@ -32,6 +34,10 @@ _34 TILs and counting..._
 
 ### .obsidian
 
+
+### Android
+
+- [Deep Linking](Android/deep-linking.md)
 
 ### Android-Studio
 
@@ -94,6 +100,10 @@ _34 TILs and counting..._
 - [gh auth](git/gh-auth.md)
 - [git lfs](git/git-lfs.md)
 - [gitconfig vs git/config](git/git-config-scope.md)
+
+### iOS
+
+- [Universal Links](iOS/universal-links.md)
 
 ### tmux
 
