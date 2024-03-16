@@ -44,4 +44,14 @@ git pull --recurse
 
 ## Where is the local git config?
 
-It's under `./git/modules/til/config` from the root repository.
+It's under `.git/modules/til/config` from the root repository.
+
+## Troubleshooting
+
+### bad object
+```
+fatal: bad object <hash>
+error: https://github.com/lydavid/til.git did not send all necessary objects
+```
+
+The solution that worked was to `git submodule sync`.
