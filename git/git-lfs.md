@@ -2,7 +2,7 @@
 # git lfs
 https://git-lfs.com/
 
-For [Gitea](Gitea.md): https://docs.gitea.com/
+For Gitea: https://docs.gitea.com/
 
 ## One-time setup per repository
 
@@ -15,7 +15,7 @@ git lfs track "*.png"
 git lfs track "*.jpg"
 ```
 
-For [Termux](Termux.md), it's not pre-installed:
+For Termux, it's not pre-installed:
 ```
 pkg install git-lfs
 ```

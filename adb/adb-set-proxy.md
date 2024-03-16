@@ -1,7 +1,7 @@
 # ADB Set Proxy
 Recently I learned[^1] adb allows setting and unsetting proxy.
 
-Very useful for [Charles proxy](../../Reference/Network/Debugging/Charles/Charles%20proxy.md). After setting Charles root certificate up, and running Charles, I can just toggle it on/off.
+Very useful for Charles. After setting Charles root certificate up, and running Charles, I can just toggle it on/off.
 
 ```
 adb shell settings put global http_proxy 192.168.1.13:8888

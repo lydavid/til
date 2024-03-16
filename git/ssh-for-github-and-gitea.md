@@ -21,7 +21,7 @@ cat ~/.ssh/id_ed25519.pub
 ```
 Copy its content.
 
-When generating an SSH key on [Termux](Termux.md), it's easier to open Android Studio, browse the connected device (could be over WiFi), and copy the contents of this file under `/data/data/com.termux/files/home/.ssh/id_ed25519.pub`. Or simply double click it to open in AS, then copy its content.
+When generating an SSH key on Termux, it's easier to open Android Studio, browse the connected device (could be over WiFi), and copy the contents of this file under `/data/data/com.termux/files/home/.ssh/id_ed25519.pub`. Or simply double click it to open in AS, then copy its content.
 
 Go to http://10.0.0.220:3000/user/settings/keys
 Add Key

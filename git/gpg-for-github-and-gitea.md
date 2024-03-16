@@ -26,7 +26,7 @@ Copy the GPG key ID after the `/`
 gpg --armor --export 3AA5C34371567BD2
 ```
 
-Paste into [Gitea](Gitea.md) and [GitHub](https://github.com/settings/keys) GPG keys section.
+Paste into Gitea and [GitHub](https://github.com/settings/keys) GPG keys section.
 
 For Gitea's verification, had to first run this on Termux[^1].
 It's also recommended to always add this to your `~/.bashrc`[^2].

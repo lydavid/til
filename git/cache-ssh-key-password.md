@@ -13,3 +13,7 @@ ssh-add ~/.ssh/id_ed25519
 ```
 - If I skip this step, it will keep prompting me for my private key passphrase
 
+## See what ssh key has been added already
+```
+ssh-add -l
+```

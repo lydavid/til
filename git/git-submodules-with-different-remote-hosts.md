@@ -25,6 +25,7 @@ git config --global --unset commit.gpgsign
 ```
 
 Then I set it up locally for the root git repository. I did not set it up for this repository yet because it uses a different email.
+After [speeding up git in WSL](../wsl/speed-up-git-in-wsl.md), I've begun trying to use git in WSL exclusively. Now that there's less keys to manage, I'm comfortable with default commit signing.
 
 ## Pulling changes after creating a submodule
 
