@@ -1,5 +1,5 @@
 # GPG for GitHub and Gitea
-## Generate new GPG key
+## Generate new master GPG key
 https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
 
 ```shell
@@ -7,6 +7,35 @@ gpg --full-generate-key
 ```
 - Go through the steps, just pick defaults
 - Enter matching git name and email as the ones found in [gitconfig](git-config-scope.md)
+
+## Generate new GPG subkey
+
+Followed some of the steps from https://security.stackexchange.com/a/104241
+```
+gpg --expert --edit-key your_email@example.com
+```
+
+```
+addkey
+```
+
+Follow prompts
+
+```
+save
+```
+
+```
+gpg --export-secret-subkeys SUBKEYID
+```
+
+From `man gpg`, in reference to `--export-secret-subkeys`
+> The second form of the command has the special property to render the secret part of the primary key useless; this is a GNU extension to OpenPGP and other implementations can not be expected to successfully import such a key.  Its intended use is in generating a full key with an additional signing subkey on a dedicated machine.  This command then exports the key without the primary key to the main machine.
+
+So after this command, the original primary key's secret will not work. This explains why when I tried to add it to GitHub using the next section's steps, it did not work. What worked was following the next section's steps using the subkey that I imported onto my new machine.
+
+## Adding a new GPG key to your GitHub or Gitea acount
+Compare with [Adding a new SSH key to your GitHub or Gitea account](ssh-for-github-and-gitea.md#Adding%20a%20new%20SSH%20key%20to%20your%20GitHub%20or%20Gitea%20account).
 
 List all keys
 ```shell
