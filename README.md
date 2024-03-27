@@ -93,7 +93,7 @@ _38 TILs and counting..._
 
 ### emulator
 
-- [Start emulator headless](emulator/start-emulator-emulator.md)
+- [Start emulator headless](emulator/start-emulator-headless.md)
 
 ### git
 
