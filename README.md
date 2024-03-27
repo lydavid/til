@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_36 TILs and counting..._
+_38 TILs and counting..._
 
 ---
 
@@ -18,6 +18,7 @@ _36 TILs and counting..._
 * [Android-Studio](#android-studio)
 * [Charles](#charles)
 * [DNS](#dns)
+* [GitHub-Actions](#github-actions)
 * [Kotlin](#kotlin)
 * [Markdown](#markdown)
 * [Obsidian](#obsidian)
@@ -25,6 +26,7 @@ _36 TILs and counting..._
 * [adb](#adb)
 * [attachments](#attachments)
 * [bash](#bash)
+* [emulator](#emulator)
 * [git](#git)
 * [iOS](#ios)
 * [tmux](#tmux)
@@ -51,6 +53,10 @@ _36 TILs and counting..._
 ### DNS
 
 - [Setting up Custom Subdomain for GitHub Pages](DNS/custom-subdomain-for-github-pages.md)
+
+### GitHub-Actions
+
+- [Keeping SQLite Schema Diagram Up To Date](GitHub-Actions/keeping-sqlite-schema-diagram-up-to-date.md)
 
 ### Kotlin
 
@@ -84,6 +90,10 @@ _36 TILs and counting..._
 ### bash
 
 - [Manage dotfiles with stow](bash/manage-dotfiles-with-stow.md)
+
+### emulator
+
+- [Start emulator headless](emulator/start-emulator-emulator.md)
 
 ### git
 
