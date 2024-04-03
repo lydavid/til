@@ -54,4 +54,4 @@ fatal: bad object <hash>
 error: https://github.com/lydavid/til.git did not send all necessary objects
 ```
 
-The solution that worked was to `git submodule sync`.
+The solution that worked was to rm that object, then `git submodule sync`.
