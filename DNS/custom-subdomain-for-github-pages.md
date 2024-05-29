@@ -6,7 +6,7 @@ Follow the steps from https://docs.github.com/en/pages/configuring-a-custom-doma
 - Type: `CNAME`
 - Value: `lydavid.github.io`
 
-Verify using [dig](../../Reference/Command%20Line%20Interface/dig.md). Make sure the GitHub Pages servers appears.
+Verify using dig. Make sure the GitHub Pages servers appears.
 ```
 dig til.da.vidly.ca +nostats +nocomments +nocmd
 ```
