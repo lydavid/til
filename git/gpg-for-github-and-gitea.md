@@ -63,6 +63,29 @@ It's also recommended to always add this to your `~/.bashrc`[^2].
 export GPG_TTY=$(tty)
 ```
 
+
+## Termux
+When generating a GPG key in Termux, it may fail to verify in the source forge. When that happens, generate it on another device, then export it.[^3]
+```shell
+gpg --armor --export 3AA5C34371567BD2 > pub.asc
+gpg --armor --export-secret-keys 3AA5C34371567BD2 > secret.asc
+```
+
+Transfer it to the Android device.
+```
+adb push pub.asc /sdcard/
+adb push secret.asc /sdcard/
+```
+
+In Termux:
+```shell
+gpg --import pub.asc
+gpg --import secret.asc
+gpg --edit-key 3AA5C34371567BD2
+gpg> trust
+rm pub.asc secret.asc
+```
+
 ## Cache password
 [cache-gpg-key-password](cache-gpg-key-password.md)
 
@@ -71,4 +94,4 @@ export GPG_TTY=$(tty)
 
 [^1]: https://stackoverflow.com/a/57591830
 [^2]: https://linux.die.net/man/1/gpg-agent
-
+[^3]: https://gist.github.com/angela-d/8b27670bac26e4bf7c431715fef5cc51
